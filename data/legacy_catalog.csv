@@ -1,0 +1,10 @@
+sku,Product Name,size,price,image_url
+SKU001,Blue T Shirt,S/M/L,₹999,https://picsum.photos/200
+SKU002,Red Shirt,M/L,$1200,https://picsum.photos/201
+SKU002,Red Shirt Duplicate,M/L,$1200,https://picsum.photos/201
+SKU003,,XL,₹799,https://picsum.photos/202
+SKU004,Black Jeans,"32,34,36",INR 1999,https://picsum.photos/203
+SKU005,Green Hoodie,S/M/L,abc,https://picsum.photos/204
+SKU006,White Tee,M,₹499,invalid-url
+,Missing SKU,L,₹699,https://picsum.photos/205
+SKU008,Malformed Row

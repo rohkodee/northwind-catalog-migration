@@ -1,0 +1,45 @@
+{
+  "success": [
+    {
+      "name": "Blue T Shirt",
+      "size": "S",
+      "itemCode": "SKU001-S"
+    },
+    {
+      "name": "Blue T Shirt",
+      "size": "M",
+      "itemCode": "SKU001-M"
+    },
+    {
+      "name": "Blue T Shirt",
+      "size": "L",
+      "itemCode": "SKU001-L"
+    },
+    {
+      "name": "Red Shirt",
+      "size": "M",
+      "itemCode": "SKU002-M"
+    },
+    {
+      "name": "Red Shirt",
+      "size": "L",
+      "itemCode": "SKU002-L"
+    },
+    {
+      "name": "Black Jeans",
+      "size": "32",
+      "itemCode": "SKU004-32"
+    },
+    {
+      "name": "Black Jeans",
+      "size": "34",
+      "itemCode": "SKU004-34"
+    },
+    {
+      "name": "Black Jeans",
+      "size": "36",
+      "itemCode": "SKU004-36"
+    }
+  ],
+  "failed": []
+}

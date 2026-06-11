@@ -1,0 +1,43 @@
+{
+  "success": 3,
+  "failed": 6,
+  "errors": [
+    {
+      "sku": "SKU002",
+      "errors": [
+        "Duplicate SKU"
+      ]
+    },
+    {
+      "sku": "SKU003",
+      "errors": [
+        "Missing Product Name"
+      ]
+    },
+    {
+      "sku": "SKU005",
+      "errors": [
+        "Invalid Price"
+      ]
+    },
+    {
+      "sku": "SKU006",
+      "errors": [
+        "Invalid Image URL"
+      ]
+    },
+    {
+      "sku": "",
+      "errors": [
+        "Missing SKU"
+      ]
+    },
+    {
+      "sku": "SKU008",
+      "errors": [
+        "Invalid Price",
+        "Invalid Image URL"
+      ]
+    }
+  ]
+}

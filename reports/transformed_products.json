@@ -1,0 +1,34 @@
+[
+  {
+    "sku": "SKU001",
+    "name": "Blue T Shirt",
+    "price": 999,
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "image_url": "https://picsum.photos/200"
+  },
+  {
+    "sku": "SKU002",
+    "name": "Red Shirt",
+    "price": 1200,
+    "sizes": [
+      "M",
+      "L"
+    ],
+    "image_url": "https://picsum.photos/201"
+  },
+  {
+    "sku": "SKU004",
+    "name": "Black Jeans",
+    "price": 1999,
+    "sizes": [
+      "32",
+      "34",
+      "36"
+    ],
+    "image_url": "https://picsum.photos/203"
+  }
+]
