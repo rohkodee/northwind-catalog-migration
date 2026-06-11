@@ -24,16 +24,27 @@ northwind-catalog-migration/
 │   └── legacy_catalog.csv          # Legacy export with deliberate mess
 
 ├── src/
+
 │   ├── transformer.js              # Cleans and transforms CSV data
+
 │   ├── validator.js                # Validates rows, reports errors
+
 │   ├── ingest.js                   # Calls Fynd Catalog API to create products
+
 │   ├── listProducts.js             # Lists products on Fynd (verification)
+
 │   └── getToken.js                 # OAuth token helper
+
 ├── reports/
+
 │   ├── validation_report.json      # Validation results
+
 │   ├── transformed_products.json   # Clean products ready for ingestion
+
 │   └── ingestion_results.json      # Ingestion success/failure log
+
 ├── .env                            # Credentials (not committed)
+
 └── README.md
 
 ---
