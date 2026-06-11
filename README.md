@@ -18,8 +18,11 @@ A private Fynd extension that reads a legacy product catalog export, validates a
 ## Project Structure
 
 northwind-catalog-migration/
+
 ├── data/
+
 │   └── legacy_catalog.csv          # Legacy export with deliberate mess
+
 ├── src/
 │   ├── transformer.js              # Cleans and transforms CSV data
 │   ├── validator.js                # Validates rows, reports errors
