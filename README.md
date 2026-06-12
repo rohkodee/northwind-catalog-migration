@@ -110,7 +110,7 @@ Invalid rows are **reported clearly, not silently dropped**.
 
 ## Assumptions & Known Limitations
 
-1. **Template**: Used `books` template with `management` category — no apparel/fashion template was available on the development company. In production, the correct fashion template would be used.
+1. **Template**: The brief specifies the `Others` category with `Supplementary` template. The dev company did not have a fashion/apparel department configured, so the `books` template with `management` category was used as a functional equivalent. All API fields, validation logic, and ingestion flow remain identical — only the template/category mapping differs. In a production setup, the correct apparel template would be configured first.
 2. **Brand**: Used existing `Generic` brand (uid: 5989) from the dev company. In production, a `Northwind` brand would be created first.
 3. **HSN Code**: Used dummy HSN code `00000001` available on the dev company. In production, the correct apparel HSN (e.g. `62052000`) would be registered.
 4. **Image URLs**: Legacy CSV image URLs were placeholder CDN URLs. Fynd's media CDN URL was used as a placeholder for ingestion.
@@ -126,3 +126,17 @@ Invalid rows are **reported clearly, not silently dropped**.
 - **Launch Type**: Company
 - **Company ID**: 15671
 - **Registered on**: Fynd Partners (Organization: ROHX)
+
+---
+
+## Evidence of Successful Ingestion
+
+Screenshots are available in the `/screenshots` folder:
+
+| Screenshot | Description |
+|---|---|
+| `01_products_list.png` | All 3 Northwind products live on Fynd Commerce Panel |
+| `02_product_detail_blue_tshirt.png` | Blue T Shirt product detail — SKU001-S, category, brand |
+| `03_ingestion_results.png` | Terminal showing 8 variants successfully ingested |
+| `04_validation_report.png` | Validation report showing 6 invalid rows caught with reasons |
+| `05_private_extension.png` | northwind-catalog-migration registered as Private extension |
